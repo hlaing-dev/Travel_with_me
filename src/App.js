@@ -5,17 +5,17 @@ import Routing from './features/Common/Routing';
 import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { BrowserRouter} from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 
 
 function App() {
   return (
     <div className="container-fluid p-0 d-flex flex-column">
-    <BrowserRouter>
-    <Navbar />
-    <Routing />
-    </BrowserRouter>
-  </div>
+      <BrowserRouter>
+        <Navbar />
+        <Routing />
+      </BrowserRouter>
+    </div>
   );
 }
 
