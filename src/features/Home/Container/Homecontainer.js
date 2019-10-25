@@ -1,12 +1,47 @@
 import React from 'react'
 import { color } from '../../../config/color'
+import Slider from '../Slider/slider'
+import Subbar from '../../Common/Subbar'
+import Footer from '../Pagefooter/footer'
 
+const subtext=[
+	{
+		text: 'Where to?',
+		type: '',
+		bgcolor: "#e4ded4",
+		textcolor: "#444444",
+		icon: require('../../../assets/png/place.png')
+	},
+	{
+		text: 'Month',
+		type: '',
+		bgcolor: "#e4ded4",
+		textcolor: "#444444",
+		icon: require('../../../assets/png/date.png')
+	},
+	{
+		text: 'Travel Type',
+		type: '',
+		bgcolor: "#e4ded4",
+		textcolor: "#444444",
+		icon: require('../../../assets/png/travel.png')
+	},
+	{
+		icon: '',
+		text: 'Find Now',
+		type: '',
+		bgcolor: "#e83629e6",
+		textcolor: "white"
+	}
+]
 const Homecontainer = () => {
-    return (
-        <div>
-            <h1> I am home container!</h1>
-        </div>
-    )
+	return (
+		<div>
+			<Slider></Slider>
+			<Subbar item={subtext}></Subbar>
+			<Footer></Footer>
+		</div>
+	)
 }
 
 export default Homecontainer

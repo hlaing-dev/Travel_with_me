@@ -9,7 +9,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="container-fluid p-0 d-flex flex-column">
+    <div className="container-fluid p-0 d-flex flex-column" style={{marginTop: "-75px"}}>
       <BrowserRouter>
         <Navbar />
         <Routing />
