@@ -2,6 +2,7 @@ import React from 'react'
 import { color } from '../../config/color'
 import { Link } from 'react-router-dom'
 
+
 const Navbar = () => {
     return (
         <div className='d-flex flex-row justify-content-end' >
