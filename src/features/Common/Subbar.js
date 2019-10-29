@@ -15,7 +15,7 @@ const Subbar = (props) => {
             }}>
                 <div className="row" style={{marginLeft: "17px"}}>
                 {itemArr.map((item, index) => (
-                    <div className="col-lg-3 col-md-6 col-sm-6 cols-xs-12">
+                    <div className="col-lg-3 col-md-6 col-sm-6 cols-xs-12" key={index}>
                     <div style={{
                         background: item.bgcolor,
                         color: item.textcolor,
@@ -24,7 +24,7 @@ const Subbar = (props) => {
                         float: "left",
                         marginTop: "30px",
                         marginBottom: "30px"
-                    }}
+                    }} 
                     >
                      <img src={item.icon}
                       style={{width: "25px", marginRight: "20px"}} alt=""></img>{item.text}

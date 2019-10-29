@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
     return (
         <div>
-            {/* <div style={{ position: "absolute", zIndex: "200" }} className="p-2 align-middle d-flex justify-content-between transparent">
+            <div style={{ position: "absolute", zIndex: "200" }} className="p-2 align-middle d-flex justify-content-between transparent">
                 <div className="d-flex">
                     <h3 className="pl-5" style={{
                         fontFamily: "Impact", letterSpacing: "2px", color: "#ffffff",
@@ -31,8 +31,12 @@ const Navbar = () => {
                         <Link className="nav-link navFont" to="/about">About</Link>
                     </li>
                 </ul>
-            </div> */}
-        <div className='d-flex flex-row justify-content-end' >
+            </div>
+            </div>
+    )
+}
+
+    {/* <div className='d-flex flex-row justify-content-end' >
 
              <div className="p-2 align-middle d-flex"
                 style={{position:'absolute',zIndex:4}}>
@@ -60,9 +64,7 @@ const Navbar = () => {
             </div>
        
         </div>
-        </div>
-    )
-}
+        </div> */}
 
 
 export default Navbar

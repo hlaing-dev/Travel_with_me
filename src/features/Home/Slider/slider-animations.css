@@ -1,21 +1,21 @@
 .slide h1 {
-	transition: all 0.3s ease;
-	-webkit-transform: translateY(-20px);
-					transform: translateY(-20px);
+	transition: all 0.9s ease;
+	-webkit-transform: translateY(70px);
+					transform: translateY(70px);
 	opacity: 0;
 }
 
 .slide button {
-	transition: all 0.3s ease;
-	-webkit-transform: translateY(20px);
-					transform: translateY(20px);
+	transition: all 0.9s ease;
+	-webkit-transform: translateY(50px);
+					transform: translateY(50px);
 	opacity: 0;
 }
 
 .slide p {
-	transition: all 0.3s ease;
-	-webkit-transform: translateY(20px);
-					transform: translateY(20px);
+	transition: all 1.5s ease;
+	-webkit-transform: translateY(90px);
+					transform: translateY(90px);
 	opacity: 0;
 }
 
@@ -23,11 +23,11 @@
 	transition: all 1s ease;
 }
 
-.slide section img {
+/* .slide section img {
 	-webkit-transform: translateX(-10px);
 					transform: translateX(-10px);
 	opacity: 0;
-}
+} */
 
 .slide section span {
 	-webkit-transform: translateY(-10px);

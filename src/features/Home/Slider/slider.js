@@ -35,7 +35,7 @@ const content = [
 const slider = () => {
     return (
         <div>
-            <Slider className="slider-wrapper" autoplay={3000} minSwipeOffset={100} touchDisabled={true}>
+            <Slider className="slider-wrapper" autoplay={3000}>
                 {content.map((item, index) => (
                     <div
                         key={index}

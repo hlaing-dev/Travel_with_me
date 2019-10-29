@@ -1,25 +1,9 @@
 import React from 'react'
 import { color } from '../../config/color'
 import { Figure } from '../../components/ImageFigure'
-import './destination.css';
+import Mainimage from '../Common/MainImageContainer'
+import beach from '../../assets/img/beach.jpg'
 
-const destination = () => {
-    return (
-        <div className="container p-5">
-            <div className="row">
-                {
-                    data.map((v, k) =>
-                        <div className='img-hover-zoom col-md-3 col-lg-2 col-sm-4 pt-2' style={{ width: '400px', height: '200px' }} key={k}>
-                            <Figure imageName={v.name} imagePath={v.imgName} />
-                        </div>
-                    )
-                }
-            </div>
-        </div>
-    )
-}
-
-export default destination
 
 const data = [
     { imgName: 'bagan.jpg', name: 'BAGAN' },
@@ -41,3 +25,24 @@ const data = [
     { imgName: 'meiktila.jpg', name: 'MEIKTILA' },
     { imgName: 'kawthaung.jpg', name: 'KAWTHAUNG' }
 ]
+
+const destination = () => {
+    return (
+        <div>
+            <Mainimage mainImage={beach} text="Top Destinations" ></Mainimage>
+        <div className="container p-5">
+            <div className="row">
+                {
+                    data.map((v, k) =>
+                        <div className='img-hover-zoom col-md-3 col-lg-2 col-sm-4 pt-2' style={{ width: '400px', height: '200px' }} key={k}>
+                            <Figure imageName={v.name} imagePath={v.imgName} />
+                        </div>
+                    )
+                }
+            </div>
+        </div>
+        </div>
+    )
+}
+
+export default destination
