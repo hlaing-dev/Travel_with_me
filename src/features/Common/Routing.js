@@ -3,7 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom'
 
 import HomeContainer from '../Home/Container/Homecontainer';
 import Destination from '../Destination/destination';
-import Tours from '../Tours/tour';
+import Tours from '../Tours/Container/tour';
 import About from '../About/Container/AboutContainer'
 
 const Routing = props => {

@@ -1,21 +1,89 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import { color } from '../../../config/color'
-import Profile1 from '../../../assets/img/img2.jpg'
-//import Profile2 from '../../../assets/img/aboutImg/profile2.jpeg'
+import Team1 from '../../../assets/img/team-1.jpg'
+import Team2 from  '../../../assets/img/team-2.jpg'
+import Team3 from  '../../../assets/img/team-3.jpg'
+import Team4 from  '../../../assets/img/team-4.jpg'
+import Facebook from '../../../assets/img/facebook.png'
+import Instagram from '../../../assets/img/instagram.png'
+import Skype from '../../../assets/img/twitter.png'
 
 const ProfileCard = props => {
     const {text, subText} = props
     return (
-            <div style={{ width: '100%', height: 500, backgroundColor: color.card, borderRadius: 5 }}>
+        <div className='row'>
+           <div className='col-lg-3'
+           style={{ width: '100%', height: '100%', backgroundColor: color.card, borderRadius: 5 }}>
                  
-                <img src={Profile1} alt='profile1' style={{width: 300, height: 300}} />
+                <img src={Team1} alt='team1' style={{ width: '100%', height: '100%'}} />
                 <div className="text-center">
-                    {text}
+                BRYAN WILLIAMS
                 </div>
                 <div className="text-center">
-                    {subText}
+                Travel Agent
                 </div> 
+                <div>
+                    <a href="https://www.facebook.com"><img src={Facebook} style={{ width:'30px' ,height: '30px'}}/></a>
+                    <a href="https://www.instagram.com/"><img src={Instagram} style={{ width:'30px' ,height: '30px'}}/></a>
+                    <a href="https://twitter.com/"> <img src={Skype} style={{ width:'30px' ,height: '30px'}}/></a>
+                   
+                </div>
+            
+            </div> 
+
+            <div  className='col-lg-3'
+            style={{ width: '100%', height: '100%', backgroundColor: color.card, borderRadius: 5 }}>
+                 
+                <img src={Team2} alt='team2' style={{ width: '100%', height: '100%'}} />
+                <div className="text-center">
+                BRYAN WILLIAMS
+                </div>
+                <div className="text-center">
+                Travel Agent
+                </div> 
+                <div>
+                    <a href="https://www.facebook.com"><img src={Facebook} style={{ width:'30px' ,height: '30px'}}/></a>
+                    <a href="https://www.instagram.com/"><img src={Instagram} style={{ width:'30px' ,height: '30px'}}/></a>
+                    <a href="https://twitter.com/"> <img src={Skype} style={{ width:'30px' ,height: '30px'}}/></a>
+                </div>
             </div>
+
+            <div  className='col-lg-3'
+            style={{ width: '100%', height: '100%', backgroundColor: color.card, borderRadius: 5 }}>
+                 
+                <img src={Team3} alt='team3' style={{ width: '100%', height: '100%'}} />
+                <div className="text-center">
+                BRYAN WILLIAMS
+                </div>
+                <div className="text-center">
+                Travel Agent
+                </div> 
+                <div>
+                    <a href="https://www.facebook.com"><img src={Facebook} style={{ width:'30px' ,height: '30px'}}/></a>
+                    <a href="https://www.instagram.com/"><img src={Instagram} style={{ width:'30px' ,height: '30px'}}/></a>
+                    <a href="https://twitter.com/"> <img src={Skype} style={{ width:'30px' ,height: '30px'}}/></a>
+                </div>
+            </div>
+
+            <div  className='col-lg-3'
+            style={{ width: '100%', height: '100%', backgroundColor: color.card, borderRadius: 5 }}>
+                 
+                <img src={Team4} alt='team4' style={{ width: '100%', height: '100%'}} />
+                <div className="text-center">
+                BRYAN WILLIAMS
+                </div>
+                <div className="text-center">
+                Travel Agent
+                </div> 
+                <div>
+                    <a href="https://www.facebook.com"><img src={Facebook} style={{ width:'30px' ,height: '30px'}}/></a>
+                    <a href="https://www.instagram.com/"><img src={Instagram} style={{ width:'30px' ,height: '30px'}}/></a>
+                    <a href="https://twitter.com/"> <img src={Skype} style={{ width:'30px' ,height: '30px'}}/></a>
+                </div>
+            </div>
+        </div>
+            
     )
 }
-export default ProfileCard;
+export default ProfileCard
