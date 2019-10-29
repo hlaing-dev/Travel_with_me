@@ -2,7 +2,6 @@ import React from 'react'
 import { color } from '../../../config/color'
 import Slider from '../Slider/slider'
 import Subbar from '../../Common/Subbar'
-import Footer from '../Pagefooter/footer'
 import HomeGallery from '../Homegallery/homegallery'
 
 const subtext=[
@@ -41,7 +40,6 @@ const Homecontainer = () => {
 			<Slider></Slider>
 			<Subbar item={subtext}></Subbar>
 			<HomeGallery></HomeGallery>
-			<Footer></Footer>
 		</div>
 	)
 }

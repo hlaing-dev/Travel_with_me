@@ -277,6 +277,14 @@ button:hover {
   letter-spacing: 3px;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+  color: white !important;
+  font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: black !important;
+}
 
 @media (max-width: 575px) {
   .autoMargin{
@@ -313,6 +321,12 @@ button:hover {
   .slider-content .inner h1 {
     font-size: 32px;
   }    
+}
+
+@media (max-width: 991px) {
+.ph-background{
+  background: black;
+}
 }
 
 @media (max-width: 640px) {
