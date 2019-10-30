@@ -15,7 +15,7 @@ function tour_packages(props) {
                         <img src={item.image} alt="" style={{ width: "370px", height: "250px" }}></img>
                         <div style={{overflow: "hidden", height: "200px"}}>
                             <p>{item.planName}</p>
-                            <p className="slide-text">{item.description}</p>
+                            <p>{item.description}</p>
                         </div>
                         <div style={{backgroundColor: "#2196F3", height: "60px"}}>
                             footer

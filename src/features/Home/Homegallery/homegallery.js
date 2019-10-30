@@ -28,8 +28,8 @@ const homegallery = (props) => {
                 <div className="row">
                     {
                         photos.map((photo,index)=>(
-                            <div style={{padding: "0px"}} className="col-lg-2 col-md-4 col-sm-6 col-xs-6 img-hover-zoom"  key={index}>
-                               <img style={{height: "200px", minWidth: "100%"}} src={photo.name} alt=""></img>
+                            <div style={{padding: "0px"}} className="col-lg-2 col-md-4 col-sm-6 img-hover-zoom"  key={index}>
+                               <img style={{height: "200px", maxWidth: "300px", minWidth: "100%"}} src={photo.name} alt=""></img>
                             </div>
                         ))
                     }
