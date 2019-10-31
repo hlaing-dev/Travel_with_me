@@ -4,6 +4,7 @@ import Slider from '../Slider/slider'
 import Subbar from '../../Common/Subbar'
 import HomeGallery from '../Homegallery/homegallery'
 import Tourpackage from '../../Tours/tour_packages'
+import Video from '../Video/video'
 
 const subtext=[
 	{
@@ -82,6 +83,7 @@ const Homecontainer = () => {
 			<Slider></Slider>
 			<Subbar item={subtext}></Subbar>
 			<Tourpackage tourArr={tourArr} margin="autoMargin"></Tourpackage>
+			<Video></Video>
 			<HomeGallery></HomeGallery>
 		</div>
 	)
