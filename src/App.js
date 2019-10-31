@@ -5,19 +5,17 @@ import Routing from './features/Common/Routing';
 import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { BrowserRouter } from 'react-router-dom'
 import Footer from './features/Common/footer'
+import { withRouter } from 'react-router-dom';
 
 function App() {
   return (
     <div className="container-fluid p-0 d-flex flex-column" style={{marginTop: "-75px"}}>
-      <BrowserRouter>
         <Navbar />
-        <Routing />
+        <Routing/>
         <Footer/>
-      </BrowserRouter>
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);

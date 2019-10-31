@@ -46,7 +46,6 @@
 
 .img-hover-zoom img {
   transition: transform .3s ease;
-  /* border-radius: 13px; */
   position: relative;
   display: inline-block;
   text-align: center;   
@@ -57,12 +56,46 @@
   opacity: .9;
 }
 
-.img-hover-zoom .text{
+.des-img-hover-zoom {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.des-img-hover-zoom img{
+  transition: transform .3s ease;
+  border-radius: 13px;
+  position: relative;
+  display: inline-block;
+  text-align: center; 
+}
+
+.des-img-hover-zoom:hover img{
+  transform: scale(1.1);
+  opacity: .9;
+}
+
+.des-img-hover-zoom .text{
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   color: white;
   transform: translate(-50%, -50%);
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.d-inline{
+  display: inline-block;
+}
+
+.mr-20{
+  margin-right: 20px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');

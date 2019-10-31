@@ -1,6 +1,6 @@
 import React from 'react'
 import { color } from '../../config/color'
-import { Figure } from '../../components/ImageFigure'
+import { Figure } from './Component/ImageFigure'
 import Mainimage from '../Common/MainImageContainer'
 import beach from '../../assets/img/beach.jpg'
 
@@ -11,7 +11,8 @@ const data = [
     { imgName: 'inndawgyi.jpg', name: 'INNDAWGYI' },
     { imgName: 'kalaw.jpg', name: 'KALAW' },
     { imgName: 'mandalay.jpg', name: 'MANDALAY' },
-    { imgName: 'mon.jpg', name: 'MON STATE' },
+    // { imgName: 'goldenrock.jpg', name: 'MON STATE' },
+    { imgName: 'ngwesaung.jpg', name: 'NGWE SAUNG' },
     { imgName: 'naypyitaw.jpg', name: 'NAYPYITAW' },
     { imgName: 'ngapali.jpg', name: 'NGAPALI' },
     { imgName: 'pyinoolwin.jpg', name: 'PYINOOLWIN' },
@@ -30,12 +31,14 @@ const destination = () => {
     return (
         <div>
             <Mainimage mainImage={beach} text="Top Destinations" ></Mainimage>
-        <div className="container p-5">
-            <div className="row">
+        <div className="container pt-5 p-2" style={{ maxWidth: '1390px'}}>
+            <div className="row" style={{textAlign: "center", margin: "20px !important"}}>
                 {
                     data.map((v, k) =>
-                        <div className='img-hover-zoom col-md-3 col-lg-2 col-sm-4 pt-2' style={{ width: '400px', height: '200px' }} key={k}>
-                            <Figure imageName={v.name} imagePath={v.imgName} />
+                        <div className='col-md-4 col-xl-2 col-lg-3 col-sm-6 col-xs-12 p-3' key={k}>
+                            <div>
+                             <Figure className="des-img-hover-zoom" imageName={v.name} imagePath={v.imgName} />
+                            </div>
                         </div>
                     )
                 }

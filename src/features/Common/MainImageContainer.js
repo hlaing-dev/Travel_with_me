@@ -4,7 +4,7 @@ import { color } from '../../config/color'
 const TopView = props => {
     const { mainImage, text } = props
     return (
-        <div className='row'>
+        <div>
             <img src={mainImage} alt={'kal kya '} style={{ width: '100%', height: '470px' }} />
             <h1 style={{
                 position: "absolute",

@@ -6,9 +6,10 @@ import TourPackage from '../tour_packages'
 
 const tourArr = [
     {
+        id: "1",
         planName: "Advanture",
-        price: "$700",
-        promotionPrice: "$650",
+        price: 700,
+        promotionPrice: 650,
         superbRating: "8.0",
         description: "Welcome from Advanture",
         duration: "10",
@@ -16,9 +17,10 @@ const tourArr = [
         image: require('../../../assets/img/homegallery/p1.jpg')
     },
     {
+        id: "2",
         planName: "Super Trip",
-        price: "$750",
-        promotionPrice: "$700",
+        price: 750,
+        promotionPrice: 0,
         superbRating: "9.0",
         description: "Welcome from Super Trip",
         duration: "10",
@@ -26,9 +28,10 @@ const tourArr = [
         image: require('../../../assets/img/homegallery/p2.jpg')
     },
     {
+        id: "3",
         planName: "Paradise",
-        price: "$850",
-        promotionPrice: "$750",
+        price: 850,
+        promotionPrice: 750,
         superbRating: "9.5",
         description: "Welcome from Paradise",
         duration: "10",
@@ -36,9 +39,10 @@ const tourArr = [
         image: require('../../../assets/img/homegallery/p3.jpg')
     },
     {
+        id: "4",
         planName: "Go Pagoda",
-        price: "$670",
-        promotionPrice: "$600",
+        price: 670,
+        promotionPrice: 0,
         superbRating: "9.0",
         description: "Welcome from Go Pagoda",
         duration: "10",
@@ -46,9 +50,10 @@ const tourArr = [
         image: require('../../../assets/img/homegallery/p4.jpg')
     },
     {
+        id: "5",
         planName: "Best Beach Ever",
-        price: "$1000",
-        promotionPrice: "$950",
+        price: 1000,
+        promotionPrice:950,
         superbRating: "8.9",
         description: "Welcome from Best Beach Ever",
         duration: "10",
@@ -56,9 +61,10 @@ const tourArr = [
         image: require('../../../assets/img/homegallery/p5.jpg')
     },
     {
+        id: "6",
         planName: "Ancient Place Collection",
-        price: "$900",
-        promotionPrice: "$800",
+        price: 900,
+        promotionPrice: 0,
         superbRating: "9.9",
         description: "Welcome from Ancient Place Collection",
         duration: "10",
@@ -66,6 +72,7 @@ const tourArr = [
         image: require('../../../assets/img/homegallery/p6.jpg')
     },
 ];
+
 
 const tours = () => {
     return (
