@@ -24,7 +24,7 @@ const photos = [
 const homegallery = (props) => {
     return (
         <div>
-            <div className="autoMargin">
+            <div>
                 <div className="row">
                     {
                         photos.map((photo,index)=>(

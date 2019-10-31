@@ -98,6 +98,10 @@
   margin-right: 20px;
 }
 
+.shadow:hover{
+  box-shadow: -10px 12px 15px -2px #607D8B;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
 
 body {
@@ -319,22 +323,26 @@ button:hover {
   color: black !important;
 }
 
+.m20-auto{
+  margin: 20px auto;
+}
+
 @media (max-width: 575px) {
   .autoMargin{
-    margin-top: 470px;
+    margin: 470px auto 0px auto !important;
   }
 }
 
 @media (min-width: 576px ) and ( max-width: 991px )
 {
   .autoMargin{
-    margin-top: 200px;
+    margin: 200px auto 0px auto !important;
   }
 }
 
 @media (min-width: 992px) {
   .autoMargin{
-    margin-top: 100px;
+    margin: 100px auto 0px auto !important;
   }
 }
 

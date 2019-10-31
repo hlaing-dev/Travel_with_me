@@ -35,7 +35,7 @@ const content = [
 const slider = () => {
     return (
         <div>
-            <Slider className="slider-wrapper" autoplay={3000}>
+            <Slider className="slider-wrapper"style={{width: "100%"}} autoplay={3000}>
                 {content.map((item, index) => (
                     <div
                         key={index}

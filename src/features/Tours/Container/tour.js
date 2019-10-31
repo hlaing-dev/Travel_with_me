@@ -14,7 +14,8 @@ const tourArr = [
         description: "Welcome from Advanture",
         duration: "10",
         availablePerson: "12",
-        image: require('../../../assets/img/homegallery/p1.jpg')
+        image: require('../../../assets/img/homegallery/p1.jpg'),
+        destination: 'Mandalay'
     },
     {
         id: "2",
@@ -25,7 +26,8 @@ const tourArr = [
         description: "Welcome from Super Trip",
         duration: "10",
         availablePerson: "12",
-        image: require('../../../assets/img/homegallery/p2.jpg')
+        image: require('../../../assets/img/homegallery/p2.jpg'),
+        destination: 'Yangon'
     },
     {
         id: "3",
@@ -36,7 +38,8 @@ const tourArr = [
         description: "Welcome from Paradise",
         duration: "10",
         availablePerson: "12",
-        image: require('../../../assets/img/homegallery/p3.jpg')
+        image: require('../../../assets/img/homegallery/p3.jpg'),
+        destination: 'Pyinoolwim'
     },
     {
         id: "4",
@@ -47,7 +50,8 @@ const tourArr = [
         description: "Welcome from Go Pagoda",
         duration: "10",
         availablePerson: "12",
-        image: require('../../../assets/img/homegallery/p4.jpg')
+        image: require('../../../assets/img/homegallery/p4.jpg'),
+        destination: 'Taung Gyi'
     },
     {
         id: "5",
@@ -58,7 +62,8 @@ const tourArr = [
         description: "Welcome from Best Beach Ever",
         duration: "10",
         availablePerson: "12",
-        image: require('../../../assets/img/homegallery/p5.jpg')
+        image: require('../../../assets/img/homegallery/p5.jpg'),
+        destination: 'Kalaw'
     },
     {
         id: "6",
@@ -69,7 +74,8 @@ const tourArr = [
         description: "Welcome from Ancient Place Collection",
         duration: "10",
         availablePerson: "12",
-        image: require('../../../assets/img/homegallery/p6.jpg')
+        image: require('../../../assets/img/homegallery/p6.jpg'),
+        destination: 'Kyaukse'
     },
 ];
 

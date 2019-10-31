@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-              <i class="fa fa-trash"></i><Link className="nav-link js-scroll-trigger" to="/">Home</Link>
+              <Link className="nav-link js-scroll-trigger" to="/">Home</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link js-scroll-trigger" to="/destination">Destination</Link>
