@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Gallery_1 from '../../assets/img/footer-gallery-3.jpg'
 const footer = () => {
     return (
-        <div className="container-fluid bg-dark pt-5" >
+        <div className="container-fluid pt-5 pb-5" style={{ backgroundColor: color.footerBackground }}>
             <div className="row">
                 <div className="col-sm-3 ">
                     <div className="p-3" style={{ color: color.textWhite, whiteSpace: 'nowrap' }}>TRAVEL WITH ME</div>
@@ -34,7 +34,7 @@ const footer = () => {
                             {
                                 photos.map((photo, index) => (
                                     <div style={{ padding: "2px" }} className="col-lg-2 col-md-5 col-sm-4 col-xs-6 img-hover-zoom" key={index}>
-                                        <img style={{ height: 60, width: 60 }} src={photo.name} alt=""></img>
+                                        <img style ={{width: 60, height: 60}}src={photo.name} alt=""></img>
                                     </div>
                                 ))
                             }
@@ -42,17 +42,6 @@ const footer = () => {
 
 
                     </div>
-                    {/* <div className="d-flex flex-row p-2">
-                        <div className="pr-2">
-                            <img style={{ width: 60, height: 60 }} src={Gallery_1} class="rounded" alt="..." />
-                        </div>
-                        <div className="pr-2">
-                            <img style={{ width: 60, height: 60 }} src={Gallery_1} class="rounded" alt="..." />
-                        </div>
-                        <div className="pr-2">
-                            <img style={{ width: 60, height: 60 }} src={Gallery_1} class="rounded" alt="..." />
-                        </div>
-                    </div> */}
                 </div>
                 <div className="col-sm-3 ">
                     <div className="p-3" style={{ color: color.textWhite }}>WORLDWIDE TOURS</div>

@@ -3,4 +3,7 @@ export const color = {
   topMainText: '#FFFFFF',
   textWhite: '#FFFFFF',
   footerBackground: '#000000',
+  subNav: '#F9F8F7',
+  subNavText: '#969191'
+  
 }
