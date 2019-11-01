@@ -44,7 +44,7 @@ const slider = () => {
                     >
                         <div className="inner">
                             <h1>{item.title}</h1>
-                            <p className="slide-text">{item.description}</p>
+                            <p>{item.description}</p>
                         </div>
                     </div>
                 ))}

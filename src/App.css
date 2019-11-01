@@ -263,13 +263,15 @@ button:hover {
   margin: 0 auto;
   max-width: 840px;
   color: #FFFFFF;
-  font-size: 64px;
+  /* font-size: 64px; */
   line-height: 1;
+  font-size:9vw;
 }
 
 .slider-content .inner p {
   color: #FFFFFF;
-  font-size: 14px;
+  /* font-size: 14px;*/
+  font-size: 3vw;
   line-height: 1.5;
   margin: 20px auto 30px;
   max-width: 640px;
